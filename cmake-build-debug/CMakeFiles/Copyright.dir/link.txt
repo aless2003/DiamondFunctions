@@ -1,0 +1,2 @@
+C:\mingw\mingw64\bin\ar.exe qc libCopyright.a  CMakeFiles/Copyright.dir/DiamondFunctions.c.obj
+C:\mingw\mingw64\bin\ranlib.exe libCopyright.a
