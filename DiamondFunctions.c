@@ -1,6 +1,5 @@
 #include "DiamondFunctions.h"
 #include <stdio.h>
-#include <String.h>
 
 void Copyright(void) {
     printf("::::::::::::::::::::::::::::::::::::::   ,``````:;    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::,  `.````````...;   :::::::`     :::::::::::::::::::::::::::::::::::::::::::::::::::\n"
@@ -204,16 +203,4 @@ void Copyright(void) {
 
 
     printf("\n\nCopyright by Alessandro Schwaiger alias Diamond");
-}
-void SpaceDelete(char String[100]){
-        int laenge = 0;
-        fgets(String, 100, stdin);
-        laenge = strlen(String);
-        for (int i = 0; i < laenge; i++) {
-            if (String[i] == ' ') {
-                for (int j = i; j < laenge; j++) {
-                    String[j] = String[j + 1];
-                }
-            }
-        }
 }
