@@ -5,5 +5,6 @@
 void Copyright(void);
 bool checkFile(FILE *);
 void selectionSort(int[], int);
+void DeleteSpace(char[]);
 
 #endif

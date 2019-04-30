@@ -1,6 +1,7 @@
 #include "DiamondFunctions.h"
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 
 void Copyright(void) {
     printf("::::::::::::::::::::::::::::::::::::::   ,``````:;    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::,  `.````````...;   :::::::`     :::::::::::::::::::::::::::::::::::::::::::::::::::\n"
@@ -205,6 +206,18 @@ void Copyright(void) {
 
     printf("\n\nCopyright by Alessandro Schwaiger alias Diamond");
 }
+
+void DeleteSpace(char String[]){
+    int a = strlen(String);
+    for (int i = 0; i < a; i++) {
+        if(String[i] == ' '){
+            for (int j = i; j < a; j++) {
+                String[j] = String[j + 1];
+            }
+        }
+    }
+}
+
 
 bool checkFile(FILE *fp){
        bool exist = false;
