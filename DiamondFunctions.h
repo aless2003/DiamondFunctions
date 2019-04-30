@@ -4,5 +4,6 @@
 
 void Copyright(void);
 bool checkFile(FILE *);
+void selectionSort(int[], int);
 
 #endif

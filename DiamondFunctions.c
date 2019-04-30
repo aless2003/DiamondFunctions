@@ -215,3 +215,23 @@ bool checkFile(FILE *fp){
        }
        return exist;
 }
+
+void selectionSort(int array[], int size) {
+    int pos = 0;
+    int temp = 0;
+    int min = 0;
+    for (int j = 0; j < size; j++) {
+        min = array[j];
+        for (int i = j; i < size; i++){
+            if(array[i] < min){
+                min = array[i];
+                pos = i;
+            }
+        }
+        if (min != array[j]) {
+            temp = array[j];
+            array[j] = min;
+            array[pos] = temp;
+        }
+    }
+}
