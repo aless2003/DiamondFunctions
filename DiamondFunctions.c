@@ -1,5 +1,6 @@
 #include "DiamondFunctions.h"
 #include <stdio.h>
+#include <stdbool.h>
 
 void Copyright(void) {
     printf("::::::::::::::::::::::::::::::::::::::   ,``````:;    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::,  `.````````...;   :::::::`     :::::::::::::::::::::::::::::::::::::::::::::::::::\n"
@@ -203,4 +204,15 @@ void Copyright(void) {
 
 
     printf("\n\nCopyright by Alessandro Schwaiger alias Diamond");
+}
+
+bool checkFile(FILE *fp){
+       bool exist = false;
+       if(fp == NULL){
+              printf("File doesn't exist!");
+              exist = false;
+       } else{
+              exist = true;
+       }
+       return exist;
 }
