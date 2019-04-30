@@ -1,4 +1,4 @@
-C:\Users\aless\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6707.69\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\Google Drive\C\DiamondFunctions1"
+"C:\Users\Alessandro Schwaiger\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\183.5429.37\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Alessandro Schwaiger\Google Drive\C\DiamondFunctions"
 -- The C compiler identification is GNU 8.1.0
 -- Check for working C compiler: C:/mingw/mingw64/bin/gcc.exe
 -- Check for working C compiler: C:/mingw/mingw64/bin/gcc.exe -- works
@@ -8,4 +8,4 @@ C:\Users\aless\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6707.69\bin\c
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/Google Drive/C/DiamondFunctions1/cmake-build-debug
+-- Build files have been written to: C:/Users/Alessandro Schwaiger/Google Drive/C/DiamondFunctions/cmake-build-debug

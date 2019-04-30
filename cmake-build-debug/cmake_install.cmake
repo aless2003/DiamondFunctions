@@ -1,8 +1,8 @@
-# Install script for directory: E:/Google Drive/C/DiamondFunctions1
+# Install script for directory: C:/Users/Alessandro Schwaiger/Google Drive/C/DiamondFunctions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Copyright")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/FastRevoery")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Google Drive/C/DiamondFunctions1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Alessandro Schwaiger/Google Drive/C/DiamondFunctions/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
