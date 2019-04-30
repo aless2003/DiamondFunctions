@@ -209,7 +209,6 @@ void Copyright(void) {
 bool checkFile(FILE *fp){
        bool exist = false;
        if(fp == NULL){
-              printf("File doesn't exist!");
               exist = false;
        } else{
               exist = true;
