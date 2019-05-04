@@ -38,38 +38,27 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\Alessandro Schwaiger\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\191.6707.69\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\aless\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6707.69\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Users\Alessandro Schwaiger\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\191.6707.69\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = C:\Users\aless\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6707.69\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Alessandro Schwaiger\Google Drive\C\DiamondFunctions"
+CMAKE_SOURCE_DIR = "E:\Google Drive\C\DiamondFunctions2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Alessandro Schwaiger\Google Drive\C\DiamondFunctions\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\Google Drive\C\DiamondFunctions2\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Users\Alessandro Schwaiger\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\191.6707.69\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Users\Alessandro Schwaiger\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\191.6707.69\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	C:\Users\aless\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6707.69\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,11 +66,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	C:\Users\aless\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6707.69\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Alessandro Schwaiger\Google Drive\C\DiamondFunctions\cmake-build-debug\CMakeFiles" "C:\Users\Alessandro Schwaiger\Google Drive\C\DiamondFunctions\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Google Drive\C\DiamondFunctions2\cmake-build-debug\CMakeFiles" "E:\Google Drive\C\DiamondFunctions2\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Alessandro Schwaiger\Google Drive\C\DiamondFunctions\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Google Drive\C\DiamondFunctions2\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named FastRevoery
+# Target rules for targets named DiamondFunctions
 
 # Build rule for target.
-FastRevoery: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 FastRevoery
-.PHONY : FastRevoery
+DiamondFunctions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 DiamondFunctions
+.PHONY : DiamondFunctions
 
 # fast build rule for target.
-FastRevoery/fast:
-	$(MAKE) -f CMakeFiles\FastRevoery.dir\build.make CMakeFiles/FastRevoery.dir/build
-.PHONY : FastRevoery/fast
+DiamondFunctions/fast:
+	$(MAKE) -f CMakeFiles\DiamondFunctions.dir\build.make CMakeFiles/DiamondFunctions.dir/build
+.PHONY : DiamondFunctions/fast
 
 DiamondFunctions.obj: DiamondFunctions.c.obj
 
@@ -128,7 +128,7 @@ DiamondFunctions.obj: DiamondFunctions.c.obj
 
 # target to build an object file
 DiamondFunctions.c.obj:
-	$(MAKE) -f CMakeFiles\FastRevoery.dir\build.make CMakeFiles/FastRevoery.dir/DiamondFunctions.c.obj
+	$(MAKE) -f CMakeFiles\DiamondFunctions.dir\build.make CMakeFiles/DiamondFunctions.dir/DiamondFunctions.c.obj
 .PHONY : DiamondFunctions.c.obj
 
 DiamondFunctions.i: DiamondFunctions.c.i
@@ -137,7 +137,7 @@ DiamondFunctions.i: DiamondFunctions.c.i
 
 # target to preprocess a source file
 DiamondFunctions.c.i:
-	$(MAKE) -f CMakeFiles\FastRevoery.dir\build.make CMakeFiles/FastRevoery.dir/DiamondFunctions.c.i
+	$(MAKE) -f CMakeFiles\DiamondFunctions.dir\build.make CMakeFiles/DiamondFunctions.dir/DiamondFunctions.c.i
 .PHONY : DiamondFunctions.c.i
 
 DiamondFunctions.s: DiamondFunctions.c.s
@@ -146,7 +146,7 @@ DiamondFunctions.s: DiamondFunctions.c.s
 
 # target to generate assembly for a file
 DiamondFunctions.c.s:
-	$(MAKE) -f CMakeFiles\FastRevoery.dir\build.make CMakeFiles/FastRevoery.dir/DiamondFunctions.c.s
+	$(MAKE) -f CMakeFiles\DiamondFunctions.dir\build.make CMakeFiles/DiamondFunctions.dir/DiamondFunctions.c.s
 .PHONY : DiamondFunctions.c.s
 
 # Help Target
@@ -155,9 +155,9 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
-	@echo ... FastRevoery
+	@echo ... DiamondFunctions
 	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... DiamondFunctions.obj
 	@echo ... DiamondFunctions.i
 	@echo ... DiamondFunctions.s
