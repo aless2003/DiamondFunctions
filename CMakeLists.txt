@@ -3,4 +3,4 @@ project(DiamondFunctions C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_library(FastRevoery DiamondFunctions.c DiamondFunctions.h)
+add_library(DiamondFunctions DiamondFunctions.c DiamondFunctions.h)
