@@ -1,4 +1,5 @@
 #Welcome
+
 So, Welcome to my C Function Libary, first a little bit about me, I'm a 16 year old HTL-Student, a Otaku and a really weird person :D. 
 In the moment I write that, I learn Programming, so I wanted to make a Libary for the things I learn and then I thinked "Someone could help that maybe" and decided to upload it to github and here it is now.
 So here is DiamondFunctions the C Libary.
