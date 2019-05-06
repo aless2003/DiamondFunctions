@@ -1,6 +1,10 @@
 language: c
 sudo: false # only for faster builds
 
-script:
-  - clang -coverage -O0 DiamondFunctions.c -o DiamondFunctions
-  - gcov DiamondFunctions.c
+compiler:
+    -clang
+    -gcc
+    -make
+    -autotools
+    -cmake
+    -scons
