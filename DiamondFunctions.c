@@ -230,51 +230,44 @@ bool checkFile(FILE *fp){
 }
 
 void selectionSort(int array[], int size) {
-    int pos = 0;
-    int temp = 0;
-    int min = 0;
-    for (int j = 0; j < size; j++) {
-        min = array[j];
-        for (int i = j; i < size; i++){
-            if(array[i] < min){
-                min = array[i];
-                pos = i;
+    int i, j, min, temp;
+    for (i = 0; i < size-1; i++){
+        min = i;
+        for (j = i+1; j < size; j++) {
+            if (array[j] < array[min]) {
+                min = j;
             }
-        }
-        if (min != array[j]) {
-            temp = array[j];
-            array[j] = min;
-            array[pos] = temp;
+            temp = array[min];
+            array[min] = array[i];
+            array[i] = temp;
         }
     }
 }
 
 void bubbleSort(int array[], int size) {
-    int temp = 0;
-    for (int i = 0; i < size- 1 ; i++) {
-        for (int j = 0; j < size -1; j++) {
-            if(array[j] > array[j + 1]){
-                temp = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = temp;
+    int i, j, temp;
+    for (i = 0; i < size- 1; i++) {
+        for (j = i+ 1; j < size; j++) {
+            if (array[j] < array[i]) {
+                temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
             }
         }
     }
 }
 
-void insertionSort(int array[], int size){
-    int temp = 0;
-
-    for (int i = 1; i < size; i++) {
-        for (int j = i; j > 0; j--) {
-            if (array[j - 1] > array[j]) {
-                temp = array[j - 1];
-                array[j - 1] = array[j];
-                array[j] = temp;
-            }
+void insertionSort(int array[], int size) {
+    int i, temp, j;
+    for (i = 1; i < size; i++) {
+        temp = array[i];
+        j = i;
+        while (j >= 1 && array[j - 1] > temp) {
+            array[j] = array[j - 1];
+            j = j - 1;
         }
+        array[j] = temp;
     }
-
 }
 
 
