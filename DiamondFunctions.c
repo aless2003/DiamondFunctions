@@ -247,25 +247,27 @@ void selectionSort(int array[], int size) {
 void bubbleSort(int array[], int size) {
     int i, j, temp;
     for (i = 0; i < size- 1; i++) {
-        for (j = 0; j < size - i - 1; j++) {
-            if (array[j] > array[j + 1]) {
-                temp = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = temp;
+        for (j = i+ 1; j < size; j++) {
+            if (array[j] < array[i]) {
+                temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
             }
         }
     }
 }
 
-void insertionSort(int array[], int size){
+void insertionSort(int array[], int size) {
     int i, temp, j;
-    for (i = 1; i < size; i++){
+    for (i = 1; i < size; i++) {
         temp = array[i];
-        j = i - 1;
-        while (j >= 0 && array[j] > temp){
-            array[j + 1] = array[j];
+        j = i;
+        while (j >= 1 && array[j - 1] > temp) {
+            array[j] = array[j - 1];
             j = j - 1;
         }
-        array[j + 1] = temp;
+        array[j] = temp;
     }
 }
+
+
