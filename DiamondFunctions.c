@@ -229,43 +229,47 @@ bool checkFile(FILE *fp){
        return exist;
 }
 
+
+// Selection Sort
 void selectionSort(int array[], int size) {
     int i, j, min, temp;
-    for (i = 0; i < size-1; i++){
+    for(i = 0; i < size-1; i++) {
         min = i;
-        for (j = i+1; j < size; j++) {
-            if (array[j] < array[min]) {
+        for(j = i+1; j < size; j++) {
+            if(array[j] < array[min]) {
                 min = j;
             }
-            temp = array[min];
-            array[min] = array[i];
-            array[i] = temp;
         }
+        temp = array[i];
+        array[i] = array[min];
+        array[min] = temp;
     }
 }
 
+// Insertion Sort
+void insertionSort(int array[], int size) {
+    int i, j, temp;
+    for(i = 1; i < size; i++) {
+        temp = array[i];
+        j = i;
+        while(j >= 1 && array[j-1] > temp) {
+            array[j] = array[j-1];
+            j--;
+        }
+        array[j] = temp;
+    }
+}
+
+// Bubble Sort
 void bubbleSort(int array[], int size) {
     int i, j, temp;
-    for (i = 0; i < size- 1; i++) {
-        for (j = 0; j < size - i - 1; j++) {
-            if (array[j] > array[j + 1]) {
+    for(i = 0; i < size-1; i++) {
+        for(j = 0; j < size-i-1; j++) {
+            if(array[j] > array[j+1]) {
                 temp = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = temp;
+                array[j] = array[j+1];
+                array[j+1] = temp;
             }
         }
-    }
-}
-
-void insertionSort(int array[], int size){
-    int i, temp, j;
-    for (i = 1; i < size; i++){
-        temp = array[i];
-        j = i - 1;
-        while (j >= 0 && array[j] > temp){
-            array[j + 1] = array[j];
-            j = j - 1;
-        }
-        array[j + 1] = temp;
     }
 }
