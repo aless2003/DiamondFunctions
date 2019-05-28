@@ -273,3 +273,12 @@ void bubbleSort(int array[], int size) {
         }
     }
 }
+
+void stringToUpper(char Letters[]){
+    int len = strlen(Letters);
+    for (int i = 0; i < len; i++) {
+        if(Letters[i] <= 'z' && Letters[i] >= 'a'){
+            Letters[i] -= 32;
+        }
+    }
+}

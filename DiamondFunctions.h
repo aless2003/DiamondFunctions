@@ -9,5 +9,6 @@ void selectionSort(int[], int);
 void DeleteSpace(char[]);
 void bubbleSort(int[], int);
 void insertionSort(int[], int);
+void stringToUpper(char[]);
 
 #endif
