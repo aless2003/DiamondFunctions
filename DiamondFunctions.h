@@ -6,7 +6,7 @@
 void Copyright(void);
 bool checkFile(FILE *);
 void selectionSort(int[], int);
-void DeleteSpace(char[]);
+void deleteSpace(char[]);
 void bubbleSort(int[], int);
 void insertionSort(int[], int);
 void stringToUpper(char[]);

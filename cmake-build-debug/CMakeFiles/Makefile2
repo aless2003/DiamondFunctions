@@ -49,19 +49,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\aless\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6707.69\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\aless\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.7141.37\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\aless\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.6707.69\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = C:\Users\aless\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\191.7141.37\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Google Drive\C\DiamondFunctions2"
+CMAKE_SOURCE_DIR = C:\Users\aless\Desktop\C\DiamondFunctions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Google Drive\C\DiamondFunctions2\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\aless\Desktop\C\DiamondFunctions\cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/DiamondFunctions.dir
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = "E:\Google Drive\C\DiamondFunctions2\cmake-build-debug"
 CMakeFiles/DiamondFunctions.dir/all:
 	$(MAKE) -f CMakeFiles\DiamondFunctions.dir\build.make CMakeFiles/DiamondFunctions.dir/depend
 	$(MAKE) -f CMakeFiles\DiamondFunctions.dir\build.make CMakeFiles/DiamondFunctions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Google Drive\C\DiamondFunctions2\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target DiamondFunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aless\Desktop\C\DiamondFunctions\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target DiamondFunctions"
 .PHONY : CMakeFiles/DiamondFunctions.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/DiamondFunctions.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DiamondFunctions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Google Drive\C\DiamondFunctions2\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aless\Desktop\C\DiamondFunctions\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/DiamondFunctions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Google Drive\C\DiamondFunctions2\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aless\Desktop\C\DiamondFunctions\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/DiamondFunctions.dir/rule
 
 # Convenience name for target.

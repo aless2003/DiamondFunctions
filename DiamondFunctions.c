@@ -207,7 +207,7 @@ void Copyright(void) {
     printf("\n\nCopyright by Alessandro Schwaiger alias Diamond");
 }
 
-void DeleteSpace(char String[]){
+void deleteSpace(char String[]){
     int a = strlen(String);
     for (int i = 0; i < a; i++) {
         if(String[i] == ' '){
