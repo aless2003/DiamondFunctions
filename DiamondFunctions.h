@@ -10,5 +10,6 @@ void deleteSpace(char[]);
 void bubbleSort(int[], int);
 void insertionSort(int[], int);
 void stringToUpper(char[]);
+int getSizeIntArr(int[]);
 
 #endif
