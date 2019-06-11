@@ -283,7 +283,3 @@ void stringToUpper(char Letters[]){
     }
 }
 
-int getSizeIntArr(int numbers[]){
-    int length = sizeof(numbers)/ sizeof(int);
-    return length;
-}

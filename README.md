@@ -20,6 +20,3 @@ Eine Funktion Sammlung für C (W.I.P)
 
 `stringToUpper(char Letters[])` needs a String of Letters and if there is a small letter (bsp. a, x, t, ...) it will converted to a big letter (bsp. A, X, T, ...).
 
-`getSizeIntArr(int numbers[])` wants to get a int Array and returns the size as a integer Value.
-
- 
