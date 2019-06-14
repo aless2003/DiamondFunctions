@@ -10,5 +10,7 @@ void deleteSpace(char[]);
 void bubbleSort(int[], int);
 void insertionSort(int[], int);
 void stringToUpper(char[]);
-
+void printIntArray(int[], int);
+void printFloatArray(float[], int);
+void printString(char[]);
 #endif

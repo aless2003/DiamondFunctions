@@ -283,3 +283,21 @@ void stringToUpper(char Letters[]){
     }
 }
 
+void printIntArray(int Array[], int size){
+    for (int i = 0; i < size; i++) {
+        printf("%d, ", Array[i]);
+    }
+}
+
+void printFloatArray(float Array[], int size){
+    for (int i = 0; i < size; i++) {
+        printf("%f, ", Array[i]);
+    }
+}
+
+void printString(char Array[]){
+    int a = strlen(Array);
+    for (int i = 0; i < a; i++) {
+        printf("%c", Array[i]);
+    }
+}
