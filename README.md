@@ -5,10 +5,10 @@ In the moment, I write that, I learn Programming, so I wanted to make a Libary f
 So here is DiamondFunctions the C Libary.
 
 
-
 # DiamondFunctions
 Eine Funktion Sammlung für C (W.I.P)
 
+Copyright by Alessandro Schwaiger/aless2003/Diamond
 # Fuctions:
 `deleteSpace(char[])` wants a String (char Array) and Delete every Space Character in the String.
 

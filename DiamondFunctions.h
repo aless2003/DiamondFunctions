@@ -3,6 +3,8 @@
 #include "DiamondFunctions.c"
 #include <stdbool.h>
 
+//Copyright by Alessandro Schwaiger/aless2003/Diamond
+
 void Copyright(void);
 bool checkFile(FILE *);
 void selectionSort(int[], int);
