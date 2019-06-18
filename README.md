@@ -20,9 +20,13 @@ Copyright by Alessandro Schwaiger/aless2003/Diamond
 
 `stringToUpper(char Letters[])` needs a String of Letters and if there is a small letter (bsp. a, x, t, ...) it will converted to a big letter (bsp. A, X, T, ...).
 
-`printIntArray(int Array[], int size)` wants to get a int Array and the size of the Array, then it prints the whole Array (it looks like that: 1, 8, 43, 9,...)
+`printIntArray(int Array[], int size)` wants a int Array and the size of the Array, then it prints the whole Array (it looks like that: 1, 8, 43, 9,...)
 
-`printFloatArray(float Array[], int size)` wants to get a float Array and the size of the Array, then it prints the whole Array (it looks like that: 1.40547, 8.78941, 43.78613, 9.8794, ...)
+`printFloatArray(float Array[], int size)` wants a float Array and the size of the Array, then it prints the whole Array (it looks like that: 1.40547, 8.78941, 43.78613, 9.8794, ...)
 
-`printString(char Array[])` wants to get a char Array (String) and prints the whole String (looks like that: DiamondCoder)
+`printString(char Array[])` wants a char Array (String) and prints the whole String (looks like that: DiamondCoder)
+
+`getAverageInt(int Array[], int size)` needs a int Array and the size of the Array, after that it calculate the average Value and returns it through a float.
+
+`getAverageFloat(float Array[], int size)`needs a float Array and the size of the Array, after that it calculate the average Value and returns it through a float.
 

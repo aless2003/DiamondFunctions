@@ -1,3 +1,0 @@
-C:/Users/aless/Desktop/C/DiamondFunctions/cmake-build-debug/CMakeFiles/DiamondFunctions.dir
-C:/Users/aless/Desktop/C/DiamondFunctions/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/aless/Desktop/C/DiamondFunctions/cmake-build-debug/CMakeFiles/rebuild_cache.dir

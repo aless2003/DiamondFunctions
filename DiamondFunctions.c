@@ -285,6 +285,25 @@ void stringToUpper(char Letters[]){
     }
 }
 
+float getAverageInt(int Array[], int size){
+    int sum = 0;
+    float average = 0;
+    for (int i = 0; i < size; i++) {
+        sum = sum + Array[i];
+    }
+    average = sum / size;
+    return average;
+}
+
+float getAverageFloat(float Array[], int size){
+    float sum = 0;
+    float average = 0;
+    for (int i = 0; i < size; i++) {
+        sum = sum + Array[i];
+    }
+    average = sum / size;
+    return average;
+}
 void printIntArray(int Array[], int size){
     for (int i = 0; i < size; i++) {
         printf("%d, ", Array[i]);
