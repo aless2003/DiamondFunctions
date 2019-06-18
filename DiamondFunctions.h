@@ -17,4 +17,5 @@ void printFloatArray(float[], int);
 void printString(char[]);
 float getAverageInt(int[], int);
 float getAverageFloat(float[], int);
+void round(float*);
 #endif

@@ -323,3 +323,13 @@ void printString(char Array[]){
     }
 }
 
+void round(float *x){
+    int var1 = (int)*x;
+    float temp;
+    temp = *x - var1;
+    if (temp < 0.5){
+        *x -= temp;
+    } else {
+        *x = *x + (1 - temp);
+    }
+}
