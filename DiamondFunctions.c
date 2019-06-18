@@ -3,6 +3,8 @@
 #include <stdbool.h>
 #include <string.h>
 
+//Copyright by Alessandro Schwaiger/aless2003/Diamond
+
 void Copyright(void) {
     printf("::::::::::::::::::::::::::::::::::::::   ,``````:;    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::,  `.````````...;   :::::::`     :::::::::::::::::::::::::::::::::::::::::::::::::::\n"
            "::::::::::::::::::::::::::::::::::::::   ,```````:;    :::::::::::::::::::::::::::`          ::::::::::::::::::::   ,````..``...;`  ::::::       :::::::::::::::::::::::::::::::::::::::::::::::::::\n"
@@ -280,6 +282,25 @@ void stringToUpper(char Letters[]){
         if(Letters[i] <= 'z' && Letters[i] >= 'a'){
             Letters[i] -= 32;
         }
+    }
+}
+
+void printIntArray(int Array[], int size){
+    for (int i = 0; i < size; i++) {
+        printf("%d, ", Array[i]);
+    }
+}
+
+void printFloatArray(float Array[], int size){
+    for (int i = 0; i < size; i++) {
+        printf("%f, ", Array[i]);
+    }
+}
+
+void printString(char Array[]){
+    int a = strlen(Array);
+    for (int i = 0; i < a; i++) {
+        printf("%c", Array[i]);
     }
 }
 
