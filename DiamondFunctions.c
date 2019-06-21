@@ -333,3 +333,13 @@ void round(float *x){
         *x = *x + (1 - temp);
     }
 }
+
+double faculty(int number){
+    double val = 0;
+
+    for (int i = 1; i <= number; i++) {
+        val = val * i;
+    }
+
+    return val;
+}

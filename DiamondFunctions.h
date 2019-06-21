@@ -18,4 +18,5 @@ void printString(char[]);
 float getAverageInt(int[], int);
 float getAverageFloat(float[], int);
 void round(float*);
+double faculty(int);
 #endif
