@@ -8,7 +8,7 @@ So here is DiamondFunctions the C Libary (still work in Progress, but maybe it'l
 # DiamondFunctions
 Eine Funktion Sammlung für C (W.I.P)
 
-made by Alessandro Schwaiger/aless2003/Diamond
+Made by Alessandro Schwaiger/aless2003/Diamond
 # Fuctions:
 `deleteSpace(char[])` wants a String (char Array) and Delete every Space Character in the String.
 
@@ -33,3 +33,5 @@ made by Alessandro Schwaiger/aless2003/Diamond
 `round(float *x)` needs the address of the variable (bsp round(&variable)), this is then rounded up or down
 
 `faculty(int number)` needs an int value and returns the faculty of it as a double (max int value = 170)
+
+`println(char String[])` prints the char Array(String) and makes a new line (\n) after the String, so you don't have to do it.

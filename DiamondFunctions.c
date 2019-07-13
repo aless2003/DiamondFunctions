@@ -343,3 +343,7 @@ double faculty(int number){
 
     return val;
 }
+
+void println(char String[]){
+    printf("%s\n",String);
+}
