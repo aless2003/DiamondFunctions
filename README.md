@@ -8,7 +8,7 @@ So here is DiamondFunctions the C Libary (still work in Progress, but maybe it'l
 # DiamondFunctions
 Eine Funktion Sammlung für C (W.I.P)
 
-Copyright by Alessandro Schwaiger/aless2003/Diamond
+made by Alessandro Schwaiger/aless2003/Diamond
 # Fuctions:
 `deleteSpace(char[])` wants a String (char Array) and Delete every Space Character in the String.
 
