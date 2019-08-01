@@ -35,3 +35,5 @@ Made by Alessandro Schwaiger/aless2003/Diamond
 `faculty(int number)` needs an int value and returns the faculty of it as a double (max int value = 170)
 
 `println(char String[])` prints the char Array(String) and makes a new line (\n) after the String, so you don't have to do it.
+
+`consoleWait()` let's wait the Console for an Input from the User (Very useful so that CMD doesn't close after completing whatever the Program do.)

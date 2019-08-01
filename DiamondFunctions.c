@@ -347,3 +347,8 @@ double faculty(int number){
 void println(char String[]){
     printf("%s\n",String);
 }
+
+void consoleWait(){
+    fflush(stdin);
+    fgetc(stdin);
+}

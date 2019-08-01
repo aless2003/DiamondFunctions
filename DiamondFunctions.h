@@ -20,4 +20,5 @@ float getAverageFloat(float[], int);
 void round(float*);
 double faculty(int);
 void println(char[]);
+void consoleWait();
 #endif
