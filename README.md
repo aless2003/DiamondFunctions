@@ -30,7 +30,7 @@ Made by Alessandro Schwaiger/aless2003/Diamond
 
 `getAverageFloat(float Array[], int size)`needs a float Array and the size of the Array, after that it calculate the average Value and returns it through a float.
 
-`round(float *x)` needs the address of the variable (bsp round(&variable)), this is then rounded up or down
+`rounding(float *x)` needs the address of the variable (bsp round(&variable)), this is then rounded up or down
 
 `faculty(int number)` needs an int value and returns the faculty of it as a double (max int value = 170)
 
