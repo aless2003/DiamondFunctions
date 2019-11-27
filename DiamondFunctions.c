@@ -334,14 +334,17 @@ void rounding(float *x){
     }
 }
 
-double faculty(int number){
-    double val = 0;
-
-    for (int i = 1; i <= number; i++) {
-        val = val * i;
+double faculty(int number) {
+    if (number > 170) {
+        printf("Zu grosse Zahl! Zahl wird auf das Maximum von 170 geaendert!\n");
+        number = 170;
     }
 
-    return val;
+    if(number > 1) {
+        return number * faculty(number-1);
+    }else {
+        return 1;
+    }
 }
 
 void println(char String[]){
